@@ -1,5 +1,5 @@
 import * as oak from "https://deno.land/x/oak@v12.6.1/mod.ts";
-import crypto from "https://deno.land/std@0.202.0/crypto/mod.ts";
+import { crypto } from "https://deno.land/std@0.202.0/crypto/mod.ts";
 
 // Open KV
 const kv = await Deno.openKv();
