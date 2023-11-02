@@ -19,7 +19,7 @@ jobs:
 
       - uses: denoland/deployctl@b841621a76eae438b09e1bce5e74549678c24e7f # v1.8.2
         with:
-          project: narrow-camel-15
+          project: thirsty-alpaca-41
           entrypoint: main.ts
 
       - run: sleep 10
